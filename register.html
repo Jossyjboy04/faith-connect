@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-['Outfit']">
+    <section>
+      <div class="flex flex-col justify-center items-center min-h-screen p-4">
+        <div
+          class="flex flex-col lg:flex-row-reverse items-center justify-center gap-[50px] lg:gap-[100px] w-full"
+        >
+         
+          <div class="hidden lg:flex items-center gap-[20px]">
+            <img class="w-32" alt="image1" src="images/login1.png" />
+            <img class="w-32 h-[632px]" alt="image2" src="images/login2.png" />
+            <img class="w-32" alt="image3" src="images/login3.png" />
+          </div>
+
+          
+          <div class="flex flex-col justify-center items-center w-full max-w-[400px]">
+            <img
+              class="w-32 h-auto mb-[30px]"
+              src="images/logo.png"
+              alt="logo"
+            />
+            <h3 class="font-[600] text-2xl text-center mb-[20px]">
+              Create an account
+            </h3>
+            <form action="" class="w-full">
+              <label for="name" class="font-[600]">Full Name</label>
+              <input
+                id="name"
+                class="outline-none focus:border-2 focus:border-blue-400 bg-[#D9D9D9] px-[10px] block rounded-[30px] font-[600] w-full h-[40px] mb-[10px]"
+                type="text"
+                name="Full Name"
+              />
+              <label for="email" class="font-[600]">Email</label>
+              <input
+                id="email"
+                class="focus:border-2 focus:border-blue-400 outline-none bg-[#D9D9D9] px-[10px] block rounded-[30px] font-[600] w-full h-[40px] mb-[10px]"
+                type="email"
+                name="Email"
+              />
+              <label for="password" class="font-[600]">Password</label>
+              <input
+                id="password"
+                class="focus:border-2 focus:border-blue-400 outline-none mb-[30px] px-[10px] bg-[#D9D9D9] block rounded-[30px] font-[600] w-full h-[40px]"
+                type="password"
+                name="Password"
+              />
+
+              <button
+                class="cursor-pointer block bg-[#D7C970] w-full h-[40px] rounded-[30px] mb-4 text-2xl font-[600]"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+            <a href="#">
+              <img
+                class="w-[100px] h-[70px]"
+                src="images/google.png"
+                alt="google logo"
+              />
+            </a>
+            <small class="text-center text-2xl mt-4">
+              Have an account?
+              <a href="login.html" class="underline">Login in</a>
+            </small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
